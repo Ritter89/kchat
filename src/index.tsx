@@ -5,6 +5,7 @@ import { Main } from './Main';
 import { useEffect, useState } from 'preact/hooks';
 import { chatService } from './ChatService';
 import "./Pwa"
+	Notification.requestPermission()
 
 function App()
 {
